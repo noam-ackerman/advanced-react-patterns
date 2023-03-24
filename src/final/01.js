@@ -73,8 +73,7 @@ function useUser() {
   return context
 }
 
-// got this idea from Dan and I love it:
-// https://twitter.com/dan_abramov/status/1125773153584676864
+
 async function updateUser(dispatch, user, updates) {
   dispatch({type: 'start update', updates})
   try {
